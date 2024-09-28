@@ -1,5 +1,6 @@
-import World from "./world";
+import genericsBasicSample from "./generics/basic";
+import genericAdvancedSample from "./generics/advanced";
 
-const root = document.getElementById("root");
-const world = new World("hello world");
-world.sayHello(root);
+genericsBasicSample();
+
+genericAdvancedSample();
